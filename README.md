@@ -10,6 +10,8 @@ Figonx is Anticheat and Discord bot for RustClient
 > Collecting Information about RustClient.exe 
 > 
 > DirectX9 Support(RustClient doesn't Support DX 9, Soon I'm Added Another Project to Support DirectX11 or Support DirectX12)
+>
+> Fix Launch Rust via BatchFile(When Bundles not Founded, because RustClient.exe launched via Current Directory, and my batch file fixed this bug)
 
 # Bot Features(Soon)
 
