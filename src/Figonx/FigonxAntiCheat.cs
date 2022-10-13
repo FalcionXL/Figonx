@@ -25,7 +25,7 @@ namespace Figonx
         }
         public HRESULT Direct3D9TakeScreenshots(uint adapter, int count)
         {
-            using (var d3d = new ComObject<IDirect3D12>(Functions.Direct3DCreate12(Constants.D3D_SDK_VERSION)))
+            using (var d3d = new ComObject<IDirect3D9>(Functions.Direct3DCreate9(Constants.D3D_SDK_VERSION)))
             {
                 var mode = new _D3DDISPLAYMODE();
                 d3d.Object.GetAdapterDisplayMode(adapter, ref mode).ThrowOnError();
