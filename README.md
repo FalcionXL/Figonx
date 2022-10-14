@@ -1,6 +1,10 @@
 # Figonx
 Figonx is Anticheat and Discord bot for RustClient
 
+
+![GitHub commit checks state](https://img.shields.io/github/checks-status/FalcionXL/Figonx/cffb81a29afacfd36e73e7d7c1c8d69f790c3baa?color=9B9B37&label=CHECKS&logo=git&logoColor=green&style=for-the-badge)
+
+
 # Features
 
 > DirectN Support(JPG Support) 
